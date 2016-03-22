@@ -1,4 +1,18 @@
-twitter-typeahead
-=================
+Twitter's typeahead.js for Symfony
+==================================
 
-A Symfony project created on March 22, 2016, 9:55 am.
+Integrate Twitter Typeahead.js easily into Symfony projects.
+
+Usage:
+
+    composer require wwsh/twitter-typeahead
+
+Add to AppKernel.php:
+
+    new WW\TwitterTypeaheadBundle\TwitterTypeaheadBundle()
+
+Generate assets:
+
+    php app/console assets:install --symlink
+
+Enjoy!
