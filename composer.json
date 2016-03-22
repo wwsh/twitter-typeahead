@@ -2,5 +2,10 @@
   "name": "wwsh/twitter-typeahead",
   "description": "A bundle for integrating Twitter's Typeahead into Symfony projects",
   "license": "MIT",
-  "type": "project"
+  "type": "project",
+  "autoload":    {
+    "psr-0": {
+      "WW\\TwitterTypeaheadBundle\\": "src/WW/TwitterTypeaheadBundle"
+    }
+  }
 }
