@@ -5,7 +5,7 @@
   "type": "project",
   "autoload":    {
     "psr-0": {
-      "WW\\TwitterTypeaheadBundle\\": "src/WW/TwitterTypeaheadBundle"
+      "": "src/"
     }
   }
 }
